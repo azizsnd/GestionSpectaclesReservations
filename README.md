@@ -1,7 +1,7 @@
 # **GestionSpectaclesReservations**
 
 ## **Project Overview**  
-This project is a comprehensive **Database Management System** (DBMS) designed and implemented using **Oracle SQL** and **PL/SQL**. It is built to streamline the process of managing shows, reservations, ticketing, and associated business rules for entertainment venues, conferences, and other events. The system provides a robust, scalable solution for event managers to add, modify, and cancel shows, track reservations, manage tickets, and more, all while maintaining data integrity through advanced Oracle features.
+This project is a comprehensive **Database Management System** (DBMS) designed and implemented using **Oracle SQL** and **PL/SQL**. It is built to streamline the process of managing shows, reservations and ticketing. The system provides a robust, scalable solution for event managers to add, modify, and cancel shows, track reservations, manage tickets, and more, all while maintaining data integrity through advanced Oracle features.
 
 The project demonstrates a strong understanding of **database design**, **SQL**, and **PL/SQL programming**, using techniques like **stored procedures**, **triggers**, **sequences**, and **cursor-based operations** to automate critical tasks and enforce business rules.
 
