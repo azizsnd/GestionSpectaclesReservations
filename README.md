@@ -34,16 +34,38 @@ This system includes a range of functionalities tailored for event management, w
       RAISE_APPLICATION_ERROR(-20001, 'Reservation date cannot be in the past');
     END IF;
   END;
+  ```
+## 4. Scalability and Flexibility
+The system is designed to scale effortlessly for both small and large-scale operations. Whether you're managing a local theater, a large conference, or an international event, the system adapts to diverse requirements. 
 
-### **Explanation of Markdown**:
-1. **Code Blocks**: 
-   - Use triple backticks (```` ``` ````) to create code blocks.
-   - You can specify the programming language after the opening backticks (e.g., ```sql for SQL code blocks) to provide syntax highlighting.
-   
-2. **Inline Code**:  
-   - Use single backticks for inline code (e.g., `SHOW TABLES;`).
+With its modular design, the solution can be expanded to accommodate new features or adjusted to handle increasing workloads, making it ideal for various event types and sizes.
 
-### **Preview**:
-When rendered on GitHub, the code snippets will appear as nicely formatted blocks with syntax highlighting, making the README visually appealing and easy to read. You can adjust the formatting to suit your needs based on the types of code you want to display.
+## Technology Stack
+- **Database**: Oracle 11g/12c
+- **Programming Languages**: SQL, PL/SQL
 
-Let me know if you need any more adjustments!
+## Installation and Setup
+
+### 1. Database Setup
+To get started, import the provided `.sql` files to create the necessary database schema, tables, and initial data. These files include:
+- The structure for **shows**, **reservations**, **artists**, **ticket categories**, and more.
+  
+To import the files:
+- Open your Oracle SQL Developer or any compatible Oracle database tool.
+- Execute the `.sql` files to set up the database tables.
+
+### 2. Execute Scripts
+After the database schema is set up, you need to run the provided PL/SQL scripts. These scripts will:
+- Create the necessary **packages**, **triggers**, and **stored procedures**.
+- Handle critical tasks such as **data validation**, **event scheduling**, and **reservation management**.
+
+To execute the scripts:
+- Open your Oracle SQL Developer or another compatible tool.
+- Run each script sequentially to ensure everything is set up correctly.
+
+### 3. Connect to the Database
+Once the database is set up and the scripts have been executed, you can connect to the Oracle database and begin using the system. To interact with the system:
+- Use **Oracle SQL Developer** or any compatible database management tool (e.g., TOAD, SQLcl).
+- Perform various queries to manage shows, reservations, tickets, and more.
+  
+You can now start managing shows, reservations, and all related components directly through your connected database tool.
